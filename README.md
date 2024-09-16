@@ -8,7 +8,7 @@ npm install
 2. Run the Project
 npm start
 
-Project Overview
+##vProject Overview
 In order to improve collaboration and transparency within the company, every employee can access the application and create a poll with two proposed solutions. Employees can then vote on these solutions and see which solutions have the most votes.
 
 ## Data
@@ -99,44 +99,44 @@ Voting options are attached to questions. They include:
 | answer | String | The option the user selected. The value should be either `"optionOne"` or `"optionTwo"`|
 
 
-Project Components :
+## Project Components :
 
-1. Home.js
+* Home.js
 Purpose: Responsible for displaying all questions. in two categores ( new question , done ).
 
-2. QuestionCard.js
+* QuestionCard.js
 Purpose: Responsible for create a card of each question in order to displaying in home page. 
 
-3. Leaderboard.js
+* Leaderboard.js
 Purpose: Responsible for displaying all users and the number of thier questions and annwers.
 
-4. login.js
+* login.js
 Purpose: Responsible for displaying a drop down list of all users to login.
 
-5. NewQuestion.js
+* NewQuestion.js
 Purpose: Responsible for creating a new question.
 
-6. PollPage.js
+* PollPage.js
 Purpose: Responsible for display the specfic question and answer in order to user answer.
 
-Project store :
+## Project store :
 the store include ( questions , users, authedUser ).
 
-project test:
+## project test:
 npm test
 
-1. Leaderboard
+* Leaderboard
 verifies that the Leaderboard component matches the expected snapshot.
 
-2. NewQuestion
+* NewQuestion
 ensures the NewQuestion component correctly renders fields and handles input changes.
 
-3. QuestionCard
+* QuestionCard
 verifies that the QuestionCard component matches the expected snapshot.
 
-4. _saveQuestion
+* _saveQuestion
 validates that _saveQuestion correctly handles valid and invalid question data.
 
-5. _saveQuestionAnswer
+* _saveQuestionAnswer
 ensures _saveQuestionAnswer processes valid answers correctly and throws errors for invalid inputs.
 
